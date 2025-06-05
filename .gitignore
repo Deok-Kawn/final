@@ -1,0 +1,131 @@
+# 바이트 컴파일된 / 최적화된 / DLL 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 확장
+*.so
+
+# 배포
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 환경 변수
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 머신러닝 / 딥러닝 관련
+# 모델 파일 (큰 파일들)
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.pth
+*.ckpt
+*.pb
+*.tflite
+
+# 데이터 파일 (대용량)
+*.csv
+*.tsv
+*.json
+*.parquet
+*.feather
+*.txt
+*.xlsx
+*.xls
+data/raw/
+data/processed/
+data/external/
+
+# 허용할 데이터 파일 (예시용 또는 작은 파일)
+!data/sample.csv
+!data/submission_sample.csv
+!일별최대전력수급(2005-2023).csv
+
+# 실험 및 로그
+experiments/
+logs/
+wandb/
+mlruns/
+outputs/
+checkpoints/
+
+# 모델 아티팩트
+models/*.pth
+models/*.h5
+models/*.pkl
+saved_models/
+
+# 텐서보드 로그
+runs/
+tensorboard_logs/
+
+# MLflow
+mlruns/
+
+# 캐시
+.cache/
+.pytest_cache/
+
+# Jupyter 설정
+.jupyter/
+
+# GPU 관련
+.nv/
+
+# IDE 설정
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS 관련
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 임시 파일
+*.tmp
+*.temp
+
+# 로그 파일
+*.log
+
+# Task Master 파일
+.taskmaster/
+tasks.json
+tasks/
