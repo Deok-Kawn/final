@@ -81,44 +81,54 @@ print(f"Using device: {device}")
 
 ## 🌟 구글 코랩에서 시작하기
 
-### 원클릭 셋업 (권장)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Deok-Kawn/final/blob/main/notebooks/colab_complete_setup.py)
+### ⚡ 원클릭 셋업 (권장)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
 
-구글 코랩에서 새 노트북을 만들고 다음 셀 실행:
+**📋 [전체 가이드는 여기 클릭!](https://github.com/Deok-Kawn/final/issues/2)**
+
+구글 코랩에서 새 노트북 → 첫 번째 셀에 복사-붙여넣기 → 실행(1-2분):
+
 ```python
-# 🚀 원클릭 프로젝트 셋업
-!wget -q https://raw.githubusercontent.com/Deok-Kawn/final/main/notebooks/colab_complete_setup.py
-exec(open('colab_complete_setup.py').read())
+# 🚀 시계열 예측 프로젝트 - 원클릭 셋업
+import os, subprocess, sys, requests
+
+def run_cmd(cmd, desc=""):
+    if desc: print(f"📋 {desc}")
+    try:
+        result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+        if result.returncode == 0:
+            print(f"✅ 성공: {desc or cmd}")
+            return True
+        else:
+            print(f"❌ 실패: {desc or cmd}")
+            return False
+    except Exception as e:
+        print(f"❌ 예외: {e}")
+        return False
+
+print("🚀 시계열 예측 프로젝트 셋업 시작")
+
+# 환경 정리 → 다운로드 → 압축해제 → Git 설정 → 라이브러리 설치 → 완료!
+# (전체 코드는 위 링크에서 확인)
 ```
 
-### 수동 설정
+### 📅 일일 작업 루틴
+
+**🌅 작업 시작:**
 ```python
-# GitHub에서 프로젝트 다운로드
-!wget https://github.com/Deok-Kawn/final/archive/refs/heads/main.zip
-!unzip main.zip && mv final-main final && cd final
-
-# Git 설정 (본인 정보로 변경)
-!git config --global user.name "팀원이름"
-!git config --global user.email "팀원이메일@example.com"
-
-# 라이브러리 설치
-!pip install -r requirements_python36.txt
-```
-
-### 일일 작업 루틴
-```python
-# 작업 시작 전: 최신 코드 가져오기
 %cd /content/final
 !git pull origin main
+```
 
-# 작업 완료 후: 변경사항 저장
-!git add notebooks/member/
-!git commit -m "feat: 새로운 실험 결과"
+**🌙 작업 완료:**
+```python
+!git add notebooks/member/본인이름_*.ipynb
+!git commit -m "본인이름: 오늘 작업 설명"
 !git push origin main
 ```
 
-> 📊 **일일 보고**: GitHub Issues에서 "📊 일일 보고서" 템플릿 사용  
-> 🆘 **문제 해결**: [코랩 가이드 이슈](https://github.com/Deok-Kawn/final/issues/2) 참조
+> 📊 **일일 보고**: [Daily Report 템플릿](https://github.com/Deok-Kawn/final/issues/new/choose) 사용  
+> 🆘 **문제 해결**: [원클릭 셋업 가이드](https://github.com/Deok-Kawn/final/issues/2) 참조
 
 ## 📊 데이터 정보
 
