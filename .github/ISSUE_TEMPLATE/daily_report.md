@@ -1,8 +1,8 @@
 ---
 name: 📊 일일 보고서
 about: 프로젝트 일일 진행 상황을 보고합니다
-title: '[일일보고] YYYY-MM-DD 일일 보고서'
-labels: daily-report, progress
+title: '[일일보고] 2024-MM-DD 일일 보고서'
+labels: 'daily-report, progress'
 assignees: ''
 ---
 

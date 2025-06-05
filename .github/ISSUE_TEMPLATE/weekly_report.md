@@ -1,8 +1,8 @@
 ---
 name: 📅 주간 보고서
 about: 프로젝트 주간 진행 상황과 성과를 요약 보고합니다
-title: '[주간보고] YYYY년 XX주차 주간 보고서 (MM/DD-MM/DD)'
-labels: weekly-report, progress, summary
+title: '[주간보고] 2024년 XX주차 주간 보고서 (MM/DD-MM/DD)'
+labels: 'weekly-report, progress, summary'
 assignees: ''
 ---
 
