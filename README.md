@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.6.9-blue?style=flat-square)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.7.1-orange?style=flat-square)](https://pytorch.org/)
 
-> **2005-2023년 일별 최대 전력 데이터를 기반으로 2024-2025년 527일간의 전력 수요를 예측하는 머신러닝 프로젝트**
+> **2005-2023년 일별 최대 전력 데이터를 기반으로 2024-2025년 527일간의 전력 수요를 예측하는 프로젝트**
 
 ## 🎯 프로젝트 미션
 
