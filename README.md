@@ -29,15 +29,19 @@
 ### 📂 **팀별 작업 공간**
 ```
 📦 프로젝트 구조
+├── 📁 eda/                 # 📊 데이터 탐색적 분석 (EDA)
 ├── 📁 notebooks/
 │   ├── 👥 member/          # 팀원 전용 실험 공간
 │   └── 👑 leader/          # 리더 전용 관리 공간
-├── 📁 results/
+├── 📁 results/             # 모든 실험 결과물 통합
+│   ├── 📊 eda/             # EDA 결과
 │   ├── 👥 member/          # 팀원 실험 결과
-│   └── 👑 leader/          # 최종 결과 및 분석
-├── 📁 models/
-│   ├── 👥 member/          # 팀원 개발 모델
-│   └── 👑 leader/          # 최종 선정 모델
+│   └── 👑 leader/          # 리더 실험 결과
+├── 📁 trained_models/      # 훈련 완료된 모델 파일
+│   ├── 👥 member/          # 팀원 훈련 모델
+│   └── 👑 leader/          # 리더 훈련 모델
+├── 📁 src/models/          # 모델 클래스 정의
+├── 📁 tools/               # 설정 및 도구 스크립트
 └── 📁 data/shared/         # 공유 데이터셋
 ```
 
