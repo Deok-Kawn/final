@@ -7,8 +7,8 @@
 ### 코랩에서 GitHub 연동 (첫 실행 시)
 ```python
 # 1. GitHub 저장소 클론
-!git clone https://github.com/YOUR-USERNAME/timeseries-competition.git
-%cd timeseries-competition
+!git clone https://github.com/Deok-Kawn/final.git
+%cd final
 
 # 2. Git 사용자 정보 설정
 !git config --global user.name "팀원이름"
@@ -41,8 +41,8 @@ analysis_[분석주제]_v[버전].ipynb
 ```python
 # 공유 데이터 로딩
 import pandas as pd
-train_df = pd.read_csv('/content/timeseries-competition/data/shared/data.csv')
-full_df = pd.read_csv('/content/timeseries-competition/data/shared/full_data.csv')
+train_df = pd.read_csv('/content/final/data/shared/data.csv')
+full_df = pd.read_csv('/content/final/data/shared/full_data.csv')
 ```
 
 ### 결과 저장 위치
