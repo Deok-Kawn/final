@@ -18,13 +18,7 @@
 - 🏆 **목표 성능**: RMSE < 600 달성
 - 🤖 **AI 협업**: TaskMaster + Claude Sonnet 4 활용
 
-## 👥 팀 구성 & AI 파워
-
-### 🤖 **AI 기반 개발 워크플로우**
-- **AI 개발 파트너**: Claude Sonnet 4 (주모델), Perplexity Sonar Pro (리서치), Claude 3.5 Sonnet (백업)
-- **작업 관리**: TaskMaster AI 시스템으로 자동화된 태스크 추적
-- **협업 방식**: AI-Human 페어 프로그래밍
-- **지식 관리**: 체계적인 실험 로그 및 인사이트 축적
+## 👥 팀 구성 
 
 ### 🤝 **팀 협업 시스템**
 - **일일 보고**: GitHub Issues 템플릿 활용
@@ -79,7 +73,7 @@
 
 ## 🚀 빠른 시작
 
-### 🌟 **AI 기반 개발 환경**
+### 🌟 **개발 환경**
 ```bash
 # 1. 저장소 클론
 git clone https://github.com/Deok-Kawn/final.git
