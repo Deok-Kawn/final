@@ -135,10 +135,8 @@ python run_all_eda.py
 
 ### 🎖️ **현재까지의 성과**
 - ✅ **완전한 EDA 분석**: 7개 주요 분석 완료, 23개 시각화 파일 생성
-- ✅ **AI 기반 개발 시스템**: TaskMaster + Claude Sonnet 4 활용
 - ✅ **체계적인 데이터 이해**: 계절성, 트렌드, 외부 요인 영향 파악
 - ✅ **모델링 준비**: ARIMA(1,1,1) 파라미터 도출, 30개 파생변수 생성
-- ✅ **자동화된 워크플로우**: 원클릭 EDA 실행 시스템
 
 ## 📊 데이터 분석 결과
 
@@ -187,11 +185,6 @@ python run_all_eda.py
 - **외부 변수**: 특별 이벤트, 경제 위기, 팬데믹 더미
 - **상호작용**: 계절×요일, 공휴일×계절 상호작용 항
 
-### 🤖 **AI 기반 개발**
-- **자동 피처 생성**: AI 지원 변수 생성 및 선택
-- **하이퍼파라미터 최적화**: Optuna + AI 추천
-- **모델 아키텍처 탐색**: Neural Architecture Search
-- **실험 추적**: MLflow + TaskMaster 통합
 
 ## 🤝 기여 및 참여
 
@@ -199,7 +192,6 @@ python run_all_eda.py
 1. **환경 설정**: 상단 빠른 시작 가이드 따라하기
 2. **EDA 결과 확인**: `results/eda/` 폴더에서 분석 결과 검토
 3. **작업 공간**: `notebooks/member/` 폴더에서 실험
-4. **TaskMaster 활용**: AI 기반 작업 관리 시스템 활용
 5. **일일 보고**: GitHub Issues를 통한 진행상황 공유
 
 ### 🌟 **기여 방법**
@@ -207,11 +199,9 @@ python run_all_eda.py
 - **EDA 인사이트 활용** 모델 개발
 - **외부 데이터** 통합 아이디어
 - **성능 개선** 실험 및 최적화
-- **AI 기반 자동화** 도구 개발
 
 ### 💬 **소통 채널**
 - **GitHub Issues**: 버그 리포트, 기능 요청
-- **TaskMaster**: AI 기반 작업 관리 및 추적
 - **Team Discussion**: 프로젝트 관련 논의
 - **EDA Results**: `results/eda/README.md` 참조
 
@@ -219,7 +209,6 @@ python run_all_eda.py
 문제가 발생하면 GitHub Issues에 문의하세요!
 - **EDA 관련**: `eda/README.md` 문제해결 섹션 참조
 - **환경 설정**: 가상환경 및 패키지 설치 문제
-- **TaskMaster**: AI 모델 설정 및 API 키 문제
 - **데이터 분석**: EDA 결과 해석 및 활용
 
 ---
@@ -228,5 +217,4 @@ python run_all_eda.py
 
 이 프로젝트는 딥러닝 경진대회 및 시계열 예측 연구 목적으로 개발되었습니다.
 
-**🤖 Powered by TaskMaster AI + Claude Sonnet 4**
 
