@@ -62,7 +62,6 @@
 ```
 
 ### 🛠️ **기술 스택**
-- **AI 개발**: TaskMaster + Claude Sonnet 4 (메인), Perplexity Sonar Pro (리서치)
 - **딥러닝**: PyTorch (LSTM, GRU, Transformer, Attention Models)
 - **시계열 분석**: Statsmodels (ARIMA/SARIMA), Prophet, 정상성 검정
 - **머신러닝**: Scikit-learn (앙상블, 회귀), XGBoost, LightGBM
