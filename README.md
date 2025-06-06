@@ -211,7 +211,7 @@ python run_all_eda.py
 - **환경 설정**: 가상환경 및 패키지 설치 문제
 - **데이터 분석**: EDA 결과 해석 및 활용
 
----
+---https://otexts.com/fpppy/nbs/15-foundation-models.html
 
 ## 📄 라이센스
 
