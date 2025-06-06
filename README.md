@@ -16,7 +16,6 @@
 - 🎯 **목표**: 527일간(2024.01.01-2025.06.10) 전력 수요 예측  
 - 📈 **평가**: RMSE (Root Mean Square Error) 최소화
 - 🏆 **목표 성능**: RMSE < 600 달성
-- 🤖 **AI 협업**: TaskMaster + Claude Sonnet 4 활용
 
 ## 👥 팀 구성 
 
